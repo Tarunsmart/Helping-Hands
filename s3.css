@@ -1,0 +1,64 @@
+
+h4{
+font-size:110%;
+color:white;
+padding:10px;
+}
+.main
+{
+width:100%;
+background:#030841;
+height:50px;
+margin-bottom:35px;
+}ul
+{
+position:absolute;
+padding:0;
+list-style:none;
+margin:0px;
+}
+ul li
+{float:left;
+margin-top:5px;
+}
+ul li a{width:125px;
+color:white;
+display:block;
+text-decoration:none;
+font-size:15px;
+text-align:center;
+padding:10px;
+text-transform:uppercase;
+border-radius:10px;
+font-weight:bold;
+}
+a:hover,a:active{
+background:blue;}
+ul li ul{
+background:#030841;
+display:none;
+}
+ul li ul li{
+float:none;
+overflow:visible;
+}
+ul li:hover ul
+{
+display:block;
+}
+
+.mySlides
+{
+display:none;
+}
+.container
+{margin-top:inherit;
+margin-left:347px;
+margin-bottom:inherit;
+width:49%;
+height:370px;
+background:#fff;
+border:2px solid #262626;
+box-shadow:0 15px 10px rgba(0,0,0,.6);
+overflow:hidden;}
+
